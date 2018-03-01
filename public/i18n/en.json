@@ -1,0 +1,31 @@
+{
+  "shapes": {
+    "треугольник": "triangle",
+    "квадрат": "square",
+    "любая другая фигура": "any other shape"
+  },
+  "colors": {
+    "белый": "white",
+    "карснсый": "red",
+    "зелёный": "green",
+    "жёлтый": "yellow"
+  },
+  "titles": {
+    "Тест | Главная страница": "Test | Main page",
+    "Тест | Фигуры": "Test | Shapes",
+    "Тест | Цвета": "Test | Colors"
+  },
+  "lang": {
+    "русский": "russian",
+    "английский": "english",
+    "немецкий": "german"
+  },
+  "цвета": "colors",
+  "фигуры": "shapes",
+  "Главная страница": "Main page",
+  "Перевод из JS": "Translation from JS",
+  "плейсхолдер": "placeholder",
+  "input": {
+    "плейсхолдер из неймспейса": "placeholders from namespace"
+  }
+}

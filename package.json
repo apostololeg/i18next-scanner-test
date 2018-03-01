@@ -1,0 +1,16 @@
+{
+  "name": "i18n-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "i18n": "gulp i18n",
+    "start": "http-server ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "i18next-scanner": "^2.4.4"
+  }
+}
