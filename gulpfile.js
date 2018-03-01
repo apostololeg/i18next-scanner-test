@@ -6,6 +6,7 @@ gulp.task('i18n', function() {
         .pipe(scanner({
             debug: false,
             sort: false,
+            removeUnusedKeys: true,
             attr: {
                 list: ['data-i18n'],
                 extensions: ['.html']

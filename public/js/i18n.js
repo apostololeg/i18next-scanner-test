@@ -31,15 +31,17 @@ n.logger.log("languageChanged",o)),e&&e(t,function(){return n.t.apply(n,argument
     function updateContent() {
         document.querySelectorAll('[data-i18n]:not([data-i18n-attr])')
             .forEach(function(item) {
-                item.innerHTML = i18next.t(item.getAttribute('data-i18n').trim())
+                var text = item.getAttribute('data-i18n').trim()
+
+                item.innerHTML = i18next.t(text) || text
             })
 
         document.querySelectorAll('[data-i18n-attr]')
             .forEach(function(item) {
                 var attr = item.getAttribute('data-i18n-attr')
-                var value = item.getAttribute('data-i18n')
+                var text = item.getAttribute('data-i18n').trim()
 
-                item.setAttribute(attr, i18next.t(value.trim()))
+                item.setAttribute(attr, i18next.t(text) || text)
             })
     }
 
@@ -64,7 +66,10 @@ n.logger.log("languageChanged",o)),e&&e(t,function(){return n.t.apply(n,argument
 
             i18next.init({
                 lang: lang,
-                'defaultNS': 'translations'
+                'defaultNS': 'translations',
+                defaultValue: function(lng, ns, key) {
+                    return key;
+                }
             })
 
             loadLang(lang, function(data) {

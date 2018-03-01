@@ -1,31 +1,19 @@
 {
-  "shapes": {
-    "треугольник": "DER triangle",
-    "квадрат": "DER square",
-    "любая другая фигура": "DER any other shape"
-  },
-  "colors": {
-    "белый": "DER white",
-    "карснсый": "DER red",
-    "зелёный": "DER green",
-    "жёлтый": "DER yellow"
-  },
-  "titles": {
-    "Тест | Главная страница": "DER Test | Main page",
-    "Тест | Фигуры": "DER Test | Shapes",
-    "Тест | Цвета": "DER Test | Colors"
-  },
-  "lang": {
-    "русский": "DER russian",
-    "английский": "DER english",
-    "немецкий": "DER german"
-  },
+  "белый": "DER white",
+  "карснсый": "DER red",
+  "зелёный": "DER green",
+  "жёлтый": "DER yellow",
+  "Тест | Главная страница": "DER Test | Main page",
+  "Тест | Фигуры": "DER Test | Shapes",
+  "Тест | Цвета": "DER Test | Colors",
   "цвета": "DER colors",
   "фигуры": "DER shapes",
   "Главная страница": "DER Main page",
   "Перевод из JS": "DER Translation from JS",
-  "плейсхолдер": "DER placeholder",
-  "input": {
-    "плейсхолдер из неймспейса": "DER placeholders from namespace"
-  }
+  "русский": "",
+  "английский": "",
+  "немецкий": "",
+  "треугольник": "",
+  "квадрат": "",
+  "любая другая фигура": ""
 }
